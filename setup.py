@@ -70,6 +70,7 @@ setup (
     entry_points={
         'console_scripts': [
             'thingy52=bluepy.thingy52:main',
+            'microbit=bluepy.microbit:main',
             'sensortag=bluepy.sensortag:main',
             'blescan=bluepy.blescan:main',
         ]
